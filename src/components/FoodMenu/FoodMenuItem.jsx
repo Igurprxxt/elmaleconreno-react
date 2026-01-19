@@ -8,11 +8,11 @@ export default function FoodMenuItem({ data }) {
 
   const { title, price, image, subTitle, priceSubTitle } = data;
 
-  useLayoutEffect(() => {
-    overImageShows(menuListSection.current);
-    foodMenuHr(border.current);
-    foodMenuHr(bordertwo.current);
-  }, []);
+  // useLayoutEffect(() => {
+  //   overImageShows(menuListSection.current);
+  //   foodMenuHr(border.current);
+  //   foodMenuHr(bordertwo.current);
+  // }, []);
   return (
     <div className="ak-menu-list-section-1" ref={menuListSection}>
       <img src={image} alt="..." />

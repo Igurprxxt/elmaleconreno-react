@@ -16,28 +16,29 @@ import Chefdetails from "./pages/Chefdetails";
 import Portfoliodetails from "./pages/Portfoliodetails";
 import Blog from "./pages/Blog";
 import Blogdetails from "./pages/Blogdetails";
+import "./index.css";
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Main />}>
         <Route index element={<Home />}></Route>
-        <Route path="/home2" element={<HomeTwo />}></Route>
+        {/* <Route path="/home2" element={<HomeTwo />}></Route> */}
         <Route path="/about" element={<About />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
-        <Route path="/chef" element={<Chef />}></Route>
-        <Route path="/meet-the-chef/:id" element={<Chefdetails />}></Route>
-        <Route path="/portfolio" element={<Portfolio />}></Route>
-        <Route
+        {/* <Route path="/chef" element={<Chef />}></Route> */}
+        {/* <Route path="/meet-the-chef/:id" element={<Chefdetails />}></Route> */}
+        {/* <Route path="/portfolio" element={<Portfolio />}></Route> */}
+        {/* <Route
           path="/portfolio-details/:id"
           element={<Portfoliodetails />}
         ></Route>
         <Route path="/blog" element={<Blog />}></Route>
-        <Route path="/blog-details/:id" element={<Blogdetails />}></Route>
+        <Route path="/blog-details/:id" element={<Blogdetails />}></Route> */}
         <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/reservations" element={<Reservations />}></Route>
+        {/* <Route path="/reservations" element={<Reservations />}></Route> */}
         <Route path="/gallery" element={<Gallery />}></Route>
-        <Route path="/comming-soon" element={<Comming />}></Route>
+        {/* <Route path="/comming-soon" element={<Comming />}></Route> */}
         <Route path="/*" element={<ErrorPages />}></Route>
       </Route>
     </Routes>

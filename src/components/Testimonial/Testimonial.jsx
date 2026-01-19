@@ -3,25 +3,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const testimonialInfo = [
   {
-    img: "/assets/img/testimonial/testimonial_1.jpg",
-    title: "Steven K. Roberts",
-    subtitle: "From USA",
+    title: "Ana C.",
+    subtitle: "On Google",
     content:
-      "“Their talented team of passionate chefs masterfully crafts each dish, combining the finest ingredients with innovative techniques to present culinary creations that are as visually stunning as they are delicious.”",
+      "Food was great, me and my fiancé got the empanadas, aguachiles and a sushi roll. Everything was a 10/10, definitely would recommend.",
   },
   {
-    img: "/assets/img/testimonial/testimonial_2.jpg",
-    title: "K. Roberts",
-    subtitle: "From ",
+    title: "Liz A.",
+    subtitle: "On Google",
     content:
-      "“Their talented team of passionate chefs masterfully crafts each dish, combining the finest ingredients with innovative techniques to present culinary creations that are as visually stunning as they are delicious.”",
+      "The sushi is delicious 🍣 😋, they are very friendly, and the service is amazing. My girls love the food here, but it's more for adults or young people.",
   },
   {
-    img: "/assets/img/testimonial/testimonial_3.jpg",
-    title: "Jon K. Sun",
-    subtitle: "From ",
+    title: "Ignacia B.",
+    subtitle: "On Google",
     content:
-      "“Their talented team of passionate chefs masterfully crafts each dish, combining the finest ingredients with innovative techniques to present culinary creations that are as visually stunning as they are delicious.”",
+      "The best of the best. The food was delicious and the service was excellent. They were very kind to me. Thanks, guys. I'll be back tomorrow.",
   },
 ];
 
@@ -51,11 +48,11 @@ export default function Testimonial() {
                     </div>
                     <div className="testimonial-info-section">
                       <div className="testimonial-info">
-                        <img
+                        {/* <img
                           src={item.img}
                           className="testimonial-info-img"
                           alt="..."
-                        />
+                        /> */}
                         <h6 className="testimonial-info-title">{item.title}</h6>
                         <p className="short-title">{item.subtitle}</p>
                         <p className="testimonial-info-subtitle">

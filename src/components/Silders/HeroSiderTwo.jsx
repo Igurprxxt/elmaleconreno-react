@@ -4,20 +4,23 @@ import bg_img from "/assets/img/bg/hero_bg_1.jpg";
 import { Link } from "react-router-dom";
 const sliderData = [
   {
-    title: "Elegance Retreat",
-    maintitle: "Restaurant",
+    title: `El Malecon - Mariscos
+`,
+    maintitle: "Bar & Grill Restaurant",
     desp: "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with",
     buttonUrl: "reservations",
   },
   {
-    title: "Elegance Retreat",
-    maintitle: "Restaurant",
+    title: `El Malecon - Mariscos
+`,
+    maintitle: "Bar & Grill Restaurant",
     desp: "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with",
     buttonUrl: "reservations",
   },
   {
-    title: "Elegance Retreat",
-    maintitle: "Restaurant",
+    title: `El Malecon - Mariscos
+`,
+    maintitle: "Bar & Grill Restaurant",
     desp: "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with",
     buttonUrl: "reservations",
   },
@@ -41,14 +44,18 @@ export default function HeroSiderTwo() {
                 return (
                   <SwiperSlide key={index}>
                     <div className="slider-info">
-                      <div className="hero-title">
-                        <h1 className="hero-main-title">{item.title}</h1>
-                        <h1 className="hero-main-title-1">{item.maintitle}</h1>
+                      <div className="hero-title ">
+                        <h1 className="hero-main-title text-5xl!">
+                          {item.title}
+                        </h1>
+                        <h1 className="hero-main-title-1 text-4xl!">
+                          {item.maintitle}
+                        </h1>
                       </div>
 
                       <div className="ak-height-30 ak-height-lg-30"></div>
                       <div>
-                        <p className="hero-sub-text">{item.desp}</p>
+                        <p className="hero-sub-text text-white">{item.desp}</p>
                       </div>
                       <div className="ak-height-70 ak-height-lg-30"></div>
                       <Link to={item.buttonUrl} className="hero-btn style-1">

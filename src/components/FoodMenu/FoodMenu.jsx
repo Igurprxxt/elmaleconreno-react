@@ -6,76 +6,15 @@ import { ButtonCommon } from "../Button/Button";
 import itemShow from "/assets/img/itemShow/food-menu.png";
 
 const foodMenu = [
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show_2.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show_2.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show_2.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show_2.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
-  {
-    title: "Spaghetti alla Carbonara",
-    price: "$49",
-    image: "/assets/img/itemShow/item-show_2.png",
-    subTitle: "Spaghetti alla Carbonara",
-    priceSubTitle: "Extra free juice",
-  },
+  { title: "Mussels (12)", price: "$17.99" },
+  { title: "Choriqueso", price: "$17.99" },
+  { title: "Calamari", price: "$16.99" },
+  { title: "Empanadas de Camaron y Queso (1 Dozen)", price: "$45.99" },
+  { title: "Empanadas de Camaron y Queso (½ Dozen)", price: "$25.99" },
+  { title: "Empanada (Single)", price: "$5.99" },
+  { title: "3 Doraditas", price: "$17.99" },
+  { title: "3 Tostaditas", price: "$17.99" },
+  { title: "Chicken Wings", price: "$18.99" },
 ];
 
 export default function FoodMenuHome({ styleTwo }) {

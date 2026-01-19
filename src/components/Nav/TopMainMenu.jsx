@@ -5,8 +5,8 @@ import { gsap } from "gsap";
 import logo from "/assets/img/logo/logo.png";
 
 const Headerlogo = {
-  title: "reservations",
-  link: "/reservations",
+  title: "Order Online",
+  link: "https://olo.edgeservpos.com/malecon",
   img: logo,
 };
 
@@ -35,7 +35,7 @@ export default function TopMainMenu(props) {
             y: 0,
             delay: i++ * 0.4,
             opacity: 1,
-          }
+          },
         );
       });
     } else {
@@ -59,13 +59,13 @@ export default function TopMainMenu(props) {
     <div className="header-top">
       <div className="wrapper">
         <div className="header-logo">
-          <Link to={Headerlogo?.link} className="logo">
+          <Link to={Headerlogo?.link} target="_blank" className="logo">
             {Headerlogo?.title}
           </Link>
         </div>
         <div className="center-log">
           <Link to="/">
-            <img src={Headerlogo?.img} alt="..." />
+            <img src={Headerlogo?.img} alt="..." width={120} />
           </Link>
         </div>
 
