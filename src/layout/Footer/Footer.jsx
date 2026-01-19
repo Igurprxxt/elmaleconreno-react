@@ -4,17 +4,17 @@ import { footerAnimation, scrollUpBtn, scrollUpShow } from "../../helper/main";
 import { WhiteButton } from "../../components/Button/Button";
 
 import footerBg from "/assets/img/bg/footer_bg.png";
-import elegenciaLogo from "/assets/img/logo/Elegencia.png";
+import elegenciaLogo from "/assets/img/logo/logo.png";
 
 const Footertext = {
   email: "info@example.com",
-  phoneone: "1-800-915-6271",
-  phonetwo: "1-800-915-6271",
-  addressone: "2726 Av. PapineauMontreal",
-  addresstwo: " H2K 4J6, Canada",
-  timeone: "SUNDAY - THURSDAY: 11:30AM - 11PM",
-  timetwo: "FRIDAY & SATURDAY: 11:30AM - 12AM",
-  copyright: "Copyright 2023 All Right Reserved",
+  phoneone: "(775)284-3300",
+  phonetwo: "",
+  addressone: "135 N SIERRA ST STE E RENO, NV, 89501",
+  addresstwo: "",
+  timeone: "SUNDAY - WEDNESDAY: 11:00AM - 10:00PM",
+  timetwo: "THURSDAY & SATURDAY: 11:00AM - 12:00AM",
+  copyright: "Copyright 2026 All Right Reserved",
 };
 
 const Footernav = [
@@ -23,20 +23,21 @@ const Footernav = [
     link: "/",
     key: "home",
   },
-  {
-    title: "About",
-    link: "/about",
-    key: "about",
-  },
+
   {
     title: "Menu",
     link: "/menu",
     key: "menu",
   },
   {
-    title: "Chef",
-    link: "/chef",
-    key: "chef",
+    title: "About",
+    link: "/about",
+    key: "about",
+  },
+  {
+    title: "Gallery",
+    link: "/gallery",
+    key: "gallery",
   },
   {
     title: "Contact",
@@ -57,7 +58,7 @@ export default function Footer() {
       footerContainer.current,
       footerHrTop.current,
       footerHrBottom.current,
-      footerTimeBorder.current
+      footerTimeBorder.current,
     );
     scrollUpShow(scrollup.current);
   }, [
@@ -73,7 +74,7 @@ export default function Footer() {
       <div className="ak-footer ak-style-1">
         <img className="ak-bg footer-bg-img" src={footerBg} />
         <div className="container ak-hr-container" ref={footerContainer}>
-          <div className="ak-braner-logo type-color-1 footer-logo">
+          {/* <div className="ak-braner-logo type-color-1 footer-logo">
             <div
               className="footer-log-elem"
               ref={scrollup}
@@ -96,14 +97,16 @@ export default function Footer() {
               </div>
               <img src={elegenciaLogo} alt="..." />
             </div>
-          </div>
-          <div className="ak-height-100 ak-height-lg-60"></div>
+          </div> */}
+          {/* <div className="ak-height-100 ak-height-lg-60"></div> */}
           <div className="ak-footer-hr-top" ref={footerHrTop}></div>
 
           <div className="footer-main">
             <div className="footer-eamil-menu">
               <div className="footer-email">
-                <a href="mailto:info@example.com">{Footertext.email}</a>
+                {/* <a href="mailto:info@example.com">{Footertext.email}</a> */}
+
+                <img src={elegenciaLogo} alt="..." width={150} />
               </div>
               <div className="footer-menu">
                 <ul>
@@ -126,7 +129,7 @@ export default function Footer() {
               </div>
               <div className="footer-address">
                 <a
-                  href="https://maps.app.goo.gl/gAd1JdfRW5d6eHkn7"
+                  href="https://maps.app.goo.gl/7XXDYN66wKFhYYZN6"
                   target="_blank"
                 >
                   {Footertext.addressone}
@@ -143,7 +146,12 @@ export default function Footer() {
                 <p>{Footertext.timetwo}</p>
               </div>
               <div className="footer-btn">
-                <WhiteButton to="reservations">Reservations</WhiteButton>
+                <WhiteButton
+                  target="_blank"
+                  to="https://olo.edgeservpos.com/malecon"
+                >
+                  Order Online
+                </WhiteButton>
               </div>
             </div>
           </div>

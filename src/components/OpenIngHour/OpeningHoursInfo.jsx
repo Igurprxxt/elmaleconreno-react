@@ -8,9 +8,9 @@ const Openinginfo = {
   title: "Opening Hours",
   image: "/assets/img/about/about_open_hour.jpg",
   subtext:
-    "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that.",
-  open: "SUNDAY - THURSDAY: 11:30AM - 11PM",
-  close: "FRIDAY & SATURDAY: 11:30AM - 12AM",
+    "Join us throughout the week and enjoy bold Sinaloa flavors, fresh mariscos, and fusion sushi served late into the night.",
+  open: "Sunday – Wednesday: 11:00 AM – 10:00 PM",
+  close: "Thursday – Saturday: 11:00 AM – 12:00 AM",
 };
 
 export default function OpeningHoursInfo({ typeTwo }) {
@@ -52,7 +52,12 @@ export default function OpeningHoursInfo({ typeTwo }) {
             )}
 
             <div className="ak-height-70 ak-height-lg-30"></div>
-            <ButtonCommon to="/reservations">Reservation</ButtonCommon>
+            <ButtonCommon
+              target="_blank"
+              to="/https://olo.edgeservpos.com/malecon"
+            >
+              Book Online
+            </ButtonCommon>
           </div>
         </div>
       </div>

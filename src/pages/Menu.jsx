@@ -13,7 +13,7 @@ export default function Menu() {
     foodmenulist.forEach((item, index) => {
       imageZoomInOut(
         imageContainers.current[index],
-        imageZoomIns.current[index]
+        imageZoomIns.current[index],
       );
     });
   }, []);
@@ -24,16 +24,21 @@ export default function Menu() {
         <div
           key={i}
           className="set-bg-img-section"
+          // style={{ backgroundColor: "#0f3842" }}
+          // style={{ backgroundColor: "black" }}
           ref={(el) => (imageContainers.current[i] = el)}
         >
-          <img
+          {/* <img
             src={`${item.bgImgShow}`}
             alt="..."
             className="imagesZoom bg-img ak-bg"
             ref={(el) => (imageZoomIns.current[i] = el)}
-          />
+          /> */}
 
-          <div className="ak-height-150 ak-height-lg-60"></div>
+          <div
+            className="ak-height-120 ak-height-lg-60"
+            style={{ borderTop: "1px solid #ffd28d" }}
+          ></div>
           <div className="container">
             <SectionTitle
               title={item.headingtext.title}
@@ -48,8 +53,8 @@ export default function Menu() {
             </div>
           </div>
 
-          <div className="ak-height-150 ak-height-lg-0"></div>
-          <div className="ak-height-150 ak-height-lg-60"></div>
+          {/* <div className="ak-height-150 ak-height-lg-0"></div> */}
+          <div className="ak-height-120 ak-height-lg-60"></div>
         </div>
       ))}
     </div>

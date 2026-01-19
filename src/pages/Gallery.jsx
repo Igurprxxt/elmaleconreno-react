@@ -7,15 +7,30 @@ import CommonHero from "../components/CommonHero/CommonHero";
 
 import galleryitems from "../dataJson/gallery.json";
 
-export default function GalleryShow() {
+export default function GalleryShow({ noHeaderShow = false }) {
   const ClassOption = classNames(
-    "row row-cols-1 row-cols-md-2  row-cols-xl-3 g-5"
+    "row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5",
   );
+
   return (
     <>
-      <CommonHero title={"Gallery"} link={"/"} />
+      {/* Hero only when header is allowed */}
+      {!noHeaderShow && <CommonHero title="Gallery" link="/" />}
+
       <div className="container">
         <div className="ak-height-150 ak-height-lg-60"></div>
+
+        {/* H1 + description when hero is hidden */}
+        {noHeaderShow && (
+          <div className="text-center mb-5">
+            <h1 className="ak-section-title">Gallery</h1>
+            <p className="mt-3">
+              Explore moments from our kitchen, bold Sinaloa flavors, fresh
+              mariscos, and fusion sushi crafted to perfection.
+            </p>
+          </div>
+        )}
+
         <LightGallery
           speed={500}
           plugins={[lgThumbnail]}
@@ -25,6 +40,7 @@ export default function GalleryShow() {
             <Link to={image.thumbnail} key={index}>
               <div className="gallery-hover">
                 <img className="h-100" src={image.src} alt={image.caption} />
+
                 <div className="gallery-img-overlay">
                   <div className="images-info">
                     <div className="gallery-img-icon">
@@ -51,6 +67,7 @@ export default function GalleryShow() {
                         />
                       </svg>
                     </div>
+
                     <div className="gallery-hover-info">
                       <div>
                         <h6>{image.title}</h6>

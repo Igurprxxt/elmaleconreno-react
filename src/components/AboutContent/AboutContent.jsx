@@ -2,15 +2,14 @@ import React, { useLayoutEffect, useRef } from "react";
 import { ButtonCommon } from "../Button/Button";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import { borderAnimation, imageZoomInOut } from "../../helper/main";
-
 const about_content = {
-  title: "Royalty",
-  textWhite: "Exquisite Dining Experience Fit for",
+  title: "Sinaloa Flavor",
+  textWhite: "The Taste of Mariscos & Fusion Sushi",
   imgOne: "/assets/img/about/about_bg.jpg",
   subtext:
-    "Lorem to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that.",
+    "Located in Reno, Nevada, El Malecon delivers a bold and exciting fusion of traditional Mexican Mariscos and innovative Sinaloa-style Sushi. Every dish is crafted to celebrate the vibrant coastal flavors of Mexico with a modern twist.",
   details:
-    "Welcome to our restaurant, where culinary artistry meets exceptional dining experiences. At, we strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories.",
+    "At El Malecon, we bring the spirit of Sinaloa to your table. From towering ceviches and fiery aguachiles to whole fried Mojarra Frita and regional Mexican-style sushi, our menu blends classic seafood traditions with creative Japanese techniques for an unforgettable dining experience.",
 };
 
 const { title, textWhite, imgOne, subtext, details } = about_content;
@@ -43,7 +42,7 @@ export default function AboutContent() {
               <div className="ak-height-30 ak-height-lg-30"></div>
               <p className="about-subtext">{subtext}</p>
               <div className="ak-height-50 ak-height-lg-30"></div>
-              <ButtonCommon to={"/about"}>Discover The Kitchen</ButtonCommon>
+              <ButtonCommon to={"/about"}>About El Malecon</ButtonCommon>
             </div>
           </div>
         </div>

@@ -2,12 +2,12 @@ import React from "react";
 
 const movingText = [
   {
-    white: "Embark on a gastronomic adventure ",
-    yellow: "guided our by exquisite dishes",
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
   },
   {
-    white: "Embark on a gastronomic adventure ",
-    yellow: "guided our by exquisite dishes",
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
   },
 ];
 
