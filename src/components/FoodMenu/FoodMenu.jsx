@@ -9,8 +9,22 @@ const foodMenu = [
   { title: "Mussels (12)", price: "$17.99" },
   { title: "Choriqueso", price: "$17.99" },
   { title: "Calamari", price: "$16.99" },
-  { title: "Empanadas de Camaron y Queso (1 Dozen)", price: "$45.99" },
-  { title: "Empanadas de Camaron y Queso (½ Dozen)", price: "$25.99" },
+  {
+    title: (
+      <span>
+        Empanadas de Camaron <br /> y Queso (1 Dozen)
+      </span>
+    ),
+    price: "$45.99",
+  },
+  {
+    title: (
+      <span>
+        Empanadas de Camaron <br /> y Queso (½ Dozen)"
+      </span>
+    ),
+    price: "$25.99",
+  },
   { title: "Empanada (Single)", price: "$5.99" },
   { title: "3 Doraditas", price: "$17.99" },
   { title: "3 Tostaditas", price: "$17.99" },

@@ -3,7 +3,7 @@ import CommonHero from "../components/CommonHero/CommonHero";
 import FoodMenuItem from "../components/FoodMenu/FoodMenuItem";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
 import { imageZoomInOut } from "../helper/main";
-import foodmenulist from "../dataJson/foodmenulist.json";
+import { foodmenulist } from "../dataJson/foodmenulist";
 
 export default function Menu() {
   const imageContainers = useRef([]);
