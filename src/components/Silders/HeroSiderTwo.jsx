@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import bg_img from "/assets/img/bg/hero_bg_1.jpg";
+import bg_img from "/assets/img/bg/elhero.png";
 import { Link } from "react-router-dom";
 const sliderData = [
   {
