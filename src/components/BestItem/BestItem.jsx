@@ -6,7 +6,7 @@ const bestItem = {
   title: "Specialties",
   textWhite: "Our",
   imgOne: "/assets/img/gal7.jpg",
-  imgTwo: "/assets/img/main6.jpg",
+  imgTwo: "/assets/img/main12.jpeg",
   details:
     "Our specialties are inspired by the bold coastal flavors of Sinaloa. From fresh mariscos and crave-worthy appetizers to signature tacos, handcrafted burgers, and vibrant cocktails, every dish is prepared with premium ingredients and a modern fusion twist.",
   highlights: [
