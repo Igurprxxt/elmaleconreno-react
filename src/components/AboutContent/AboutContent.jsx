@@ -1,7 +1,7 @@
-import React, { useLayoutEffect, useRef } from "react";
+import React from "react";
 import { ButtonCommon } from "../Button/Button";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import { borderAnimation, imageZoomInOut } from "../../helper/main";
+
 const about_content = {
   title: "Sinaloa Flavor",
   textWhite: "The Taste of Mariscos & Fusion Sushi",
@@ -15,23 +15,14 @@ const about_content = {
 const { title, textWhite, imgOne, subtext, details } = about_content;
 
 export default function AboutContent() {
-  const imageContainer = useRef(null);
-  const imageZoomIn = useRef(null);
-  const borderAbout = useRef(null);
-
-  useLayoutEffect(() => {
-    imageZoomInOut(imageContainer.current, imageZoomIn.current);
-    borderAnimation(borderAbout.current, 2, 13);
-  }, []);
-
   return (
-    <section className="ak-about-bg-color" ref={imageContainer}>
+    <section className="ak-about-bg-color">
       <div className="ak-height-150 ak-height-lg-60"></div>
       <div className="ak-about ak-style-1">
         <div className="ak-about-bg-img ak-bg">
-          <img src={imgOne} alt="..." ref={imageZoomIn} />
+          <img src={imgOne} alt="..." />
         </div>
-        <div className="ak-about-hr" ref={borderAbout}></div>
+        <div className="ak-about-hr"></div>
         <div className="container">
           <div className="about-section ak-about-1">
             <div className="about-text-section">
