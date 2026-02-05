@@ -30,7 +30,11 @@ export default function HeroSiderTwo() {
   return (
     <section>
       <div className="ak-hero ak-style1">
-        <img className="ak-hero-bg ak-bg" src={bg_img} alt="..." />
+        <video className="ak-hero-bg ak-bg" autoPlay loop muted>
+          <source src="/assets/img/hero.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* <img className="ak-hero-bg ak-bg" src={bg_img} alt="..." /> */}
         <div className="hero-text-section container-fluid">
           <div className="ak-slider ak-slider-hero-2">
             <Swiper
