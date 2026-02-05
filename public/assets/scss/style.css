@@ -4913,8 +4913,14 @@ input[type="checkbox"] {
   display: flex;
   flex-shrink: 0;
   align-items: center;
-  padding: 15px 0px;
+  padding: 8px 0px;
   animation: slide-left 20s linear infinite;
+}
+.ak-moving-section h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.2;
 }
 .ak-moving-section span {
   color: #fff;

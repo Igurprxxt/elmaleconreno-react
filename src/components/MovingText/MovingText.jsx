@@ -17,9 +17,9 @@ export default function MovingText() {
       <div className="ak-moving-section-in">
         {movingText?.map((text, i) => (
           <div className="ak-moving-section" key={i}>
-            <h2>
+            <h4>
               {text.white} <span>{text.yellow}</span>
-            </h2>
+            </h4>
           </div>
         ))}
       </div>

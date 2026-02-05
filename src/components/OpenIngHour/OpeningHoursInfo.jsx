@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 const Openinginfo = {
   title: "Opening Hours",
-  image: "/assets/img/main4.jpg",
+  image: "/assets/img/main13.jpeg",
   subtext:
     "Join us throughout the week and enjoy bold Sinaloa flavors, fresh mariscos, and fusion sushi served late into the night.",
   open: "Sunday – Wednesday: 11:00 AM – 10:00 PM",
