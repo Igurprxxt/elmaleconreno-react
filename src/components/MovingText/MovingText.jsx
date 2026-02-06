@@ -9,6 +9,258 @@ const movingText = [
     yellow: "El Malecon Mariscos  ",
     white: "Bar & Grill",
   },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
+  {
+    yellow: "El Malecon Mariscos  ",
+    white: "Bar & Grill",
+  },
 ];
 
 export default function MovingText() {

@@ -71,7 +71,7 @@ export default function HeroSiderTwo() {
             </Swiper>
           </div>
         </div>
-        <div className="container">
+        {/* <div className="container">
           <div className="ak-swiper-controll-hero-2">
             <div className="ak-swiper-navigation-wrap">
               <div
@@ -124,7 +124,7 @@ export default function HeroSiderTwo() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
