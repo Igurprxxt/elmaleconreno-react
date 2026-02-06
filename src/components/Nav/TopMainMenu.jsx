@@ -78,17 +78,6 @@ export default function TopMainMenu(props) {
   return (
     <div className="header-top">
       <div className="wrapper">
-        <div className="header-logo">
-          <Link to={Headerlogo?.link} target="_blank" className="logo">
-            {Headerlogo?.title}
-          </Link>
-        </div>
-        <div className="center-log">
-          <Link to="/">
-            <img src={Headerlogo?.img} alt="..." width={120} />
-          </Link>
-        </div>
-
         <div className="nav-toggles" onClick={showTopnav}>
           <span
             id="navBar"
@@ -96,6 +85,18 @@ export default function TopMainMenu(props) {
           >
             <span></span>
           </span>
+        </div>
+
+        <div className="center-log">
+          <Link to="/">
+            <img src={Headerlogo?.img} alt="..." width={120} />
+          </Link>
+        </div>
+
+        <div className="header-logo">
+          <Link to={Headerlogo?.link} target="_blank" className="logo">
+            {Headerlogo?.title}
+          </Link>
         </div>
 
         <ul className={`top-main-menu ${showTopNavFullScreen}`}>
