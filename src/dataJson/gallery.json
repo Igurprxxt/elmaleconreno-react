@@ -40,5 +40,26 @@
         "caption": "Image 12",
         "title": "Chef's Special",
         "desp": "Featured"
+    },
+    {
+        "src": "/assets/img/gal8.jpg",
+        "thumbnail": "/assets/img/gallery/gallery_12.jpg",
+        "caption": "Image 12",
+        "title": "Chef's Special",
+        "desp": "Featured"
+    },
+    {
+        "src": "/assets/img/gal9.jpg",
+        "thumbnail": "/assets/img/gallery/gallery_12.jpg",
+        "caption": "Image 12",
+        "title": "Chef's Special",
+        "desp": "Featured"
+    },
+    {
+        "src": "/assets/img/gal10.jpg",
+        "thumbnail": "/assets/img/gallery/gallery_12.jpg",
+        "caption": "Image 12",
+        "title": "Chef's Special",
+        "desp": "Featured"
     }
 ]

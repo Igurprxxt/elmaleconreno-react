@@ -34,7 +34,7 @@ export const foodmenulist = [
       subTitle: "House Specials",
       type: "center",
     },
-    bgImgShow: "/assets/img/main2.jpg",
+    bgImgShow: "/assets/img/main01.jpg",
     foodMenu: [
       { title: "Shrimp Chicharron", price: "$26.99" },
       { title: "Fish Chicharron", price: "$25.99" },
@@ -47,7 +47,7 @@ export const foodmenulist = [
       subTitle: "Served with Fries",
       type: "center",
     },
-    bgImgShow: "/assets/img/gal3.jpg",
+    bgImgShow: "/assets/img/main13.jpeg",
     foodMenu: [
       { title: "Malecon Shrimp", price: "$16.99" },
       { title: "Santa Fe Chicken", price: "$18.25" },
