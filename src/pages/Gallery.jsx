@@ -1,8 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
-import LightGallery from "lightgallery/react";
-import lgThumbnail from "lightgallery/plugins/thumbnail";
 import CommonHero from "../components/CommonHero/CommonHero";
 
 import galleryitems from "../dataJson/gallery.json";
@@ -23,7 +20,9 @@ export default function GalleryShow({ noHeaderShow = false }) {
         {/* H1 + description when hero is hidden */}
         {noHeaderShow && (
           <div className="text-center mb-5">
-            <h1 className="ak-section-title">Gallery</h1>
+            <h1 className="ak-section-title !text-white !text-[60px]">
+              Gallery
+            </h1>
             <p className="mt-3">
               Explore moments from our kitchen, bold Sinaloa flavors, fresh
               mariscos, and fusion sushi crafted to perfection.
@@ -31,17 +30,13 @@ export default function GalleryShow({ noHeaderShow = false }) {
           </div>
         )}
 
-        <LightGallery
-          speed={500}
-          plugins={[lgThumbnail]}
-          elementClassNames={ClassOption}
-        >
+        <div className={ClassOption}>
           {galleryitems?.map((image, index) => (
-            <Link to={image.thumbnail} key={index}>
+            <div key={index}>
               <div className="gallery-hover">
                 <img className="h-100" src={image.src} alt={image.caption} />
 
-                <div className="gallery-img-overlay">
+                {/* <div className="gallery-img-overlay">
                   <div className="images-info">
                     <div className="gallery-img-icon">
                       <svg
@@ -75,11 +70,11 @@ export default function GalleryShow({ noHeaderShow = false }) {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
-            </Link>
+            </div>
           ))}
-        </LightGallery>
+        </div>
       </div>
     </>
   );

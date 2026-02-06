@@ -11,10 +11,10 @@ export default function SectionTitle(props) {
   return (
     <div className={sectionClass}>
       {subTitle && <div className="ak-section-subtitle">{subTitle}</div>}
-      <h2 className="ak-section-title">
+      <h2 className="ak-section-title !text-white">
         {textWhite && (
           <>
-            <span className="text-white">{textWhite}</span> <br />
+            <span>{textWhite}</span> <br />
           </>
         )}
         {title}
