@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { gsap } from "gsap";
 
 import logo from "/assets/img/logo/logo.png";
@@ -12,8 +12,28 @@ const Headerlogo = {
 
 export default function TopMainMenu(props) {
   const { Topnavlist } = props;
+  const location = useLocation();
 
   const [showTopNavFullScreen, setshowTopNavFullScreen] = useState("");
+
+  // Close fullscreen menu whenever pathname changes
+  useEffect(() => {
+    if (showTopNavFullScreen === "active") {
+      // Reset the menu
+      gsap.set(".ak-main_header_right", {
+        display: "block",
+      });
+      let topAllList = gsap.utils.toArray(".top-main-menu-li");
+      topAllList.forEach((item) => {
+        gsap.set(item, {
+          y: 0,
+          opacity: 0,
+        });
+      });
+      setshowTopNavFullScreen("");
+    }
+  }, [location.pathname]);
+
   const showTopnav = () => {
     let topAllList = gsap.utils.toArray(".top-main-menu-li");
     let i = 1;

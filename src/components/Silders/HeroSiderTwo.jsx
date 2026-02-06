@@ -49,7 +49,7 @@ export default function HeroSiderTwo() {
                   <SwiperSlide key={index}>
                     <div className="slider-info">
                       <div className="hero-title ">
-                        <h1 className="hero-main-title text-5xl!">
+                        <h1 className="hero-main-title text-5xl! mb-4">
                           {item.title}
                         </h1>
                         <h1 className="hero-main-title-1 text-4xl!">

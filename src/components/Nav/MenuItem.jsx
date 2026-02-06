@@ -3,11 +3,17 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
 
-export default function MenuItem({ props }) {
+export default function MenuItem({ props, closeMenu }) {
   const [showMenu, setShowMenu] = useState(false);
 
   const showsubnav = () => {
     setShowMenu(!showMenu);
+  };
+
+  const handleLinkClick = (e) => {
+    if (closeMenu) {
+      closeMenu();
+    }
   };
 
   const showActive = classNames("ak-munu_dropdown_toggle", {
@@ -20,13 +26,13 @@ export default function MenuItem({ props }) {
 
   return (
     <li className={showActivePrent}>
-      <Link to={props.link}>{props.title}</Link>
+      <Link to={props.link} onClick={handleLinkClick}>{props.title}</Link>
       {isArray(props.childern) && (
         <>
           <ul>
             {props?.childern?.map((child) => (
               <li key={child.key}>
-                <Link to={child.link}>{child.title}</Link>
+                <Link to={child.link} onClick={handleLinkClick}>{child.title}</Link>
               </li>
             ))}
           </ul>
