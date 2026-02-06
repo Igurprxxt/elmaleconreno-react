@@ -1,13 +1,17 @@
 import React from "react";
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 import CommonHero from "../components/CommonHero/CommonHero";
 
 import galleryitems from "../dataJson/gallery.json";
 
-export default function GalleryShow({ noHeaderShow = false }) {
+export default function GalleryShow({ noHeaderShow = false, limitItems = null }) {
   const ClassOption = classNames(
     "row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5",
   );
+
+  // Limit items if limitItems prop is provided
+  const displayItems = limitItems ? galleryitems.slice(0, limitItems) : galleryitems;
 
   return (
     <>
@@ -31,7 +35,7 @@ export default function GalleryShow({ noHeaderShow = false }) {
         )}
 
         <div className={ClassOption}>
-          {galleryitems?.map((image, index) => (
+          {displayItems?.map((image, index) => (
             <div key={index}>
               <div className="gallery-hover">
                 <img className="h-100" src={image.src} alt={image.caption} />
@@ -75,6 +79,18 @@ export default function GalleryShow({ noHeaderShow = false }) {
             </div>
           ))}
         </div>
+
+        {/* View More button when items are limited */}
+        {limitItems && galleryitems.length > limitItems && (
+          <div className="text-center mt-5">
+            <div className="ak-height-30 ak-height-lg-30"></div>
+            <Link to="/gallery" className="ak-btn ak-style1">
+              <span className="ak-btn-in">View More</span>
+            </Link>
+          </div>
+        )}
+
+        <div className="ak-height-150 ak-height-lg-60"></div>
       </div>
     </>
   );

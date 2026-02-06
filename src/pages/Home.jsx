@@ -19,9 +19,9 @@ export default function Home() {
       <OpeningHoursInfo typeTwo={true} />
       {/* <PortfolioSlider /> */}
       <FoodMenuHome styleTwo={false} bgimgremove={true} />
-      <BestItem />
+      {/* <BestItem /> */}
+      <GalleryShow noHeaderShow limitItems={3} />
       <Testimonial />
-      <GalleryShow noHeaderShow />
       {/* <BookingSystemTwo videoId={"UsD1MhKBmD4"} /> */}
     </>
   );
