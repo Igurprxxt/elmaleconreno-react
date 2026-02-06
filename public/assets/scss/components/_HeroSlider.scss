@@ -31,11 +31,13 @@
 
   .hero-text-section {
     z-index: 10;
-    margin-left: 160px;
+    margin-left: 0;
     position: absolute;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100%;
+    width: 100%;
 
     .swiper-slide-active {
       .slider-info {
@@ -80,9 +82,12 @@
 
     .slider-info {
       width: 100%;
+      max-width: 900px;
+      text-align: center;
 
       .hero-title {
         text-transform: uppercase;
+        text-align: center;
 
         .hero-main-title {
           color: $white;
@@ -97,7 +102,7 @@
           border-bottom: 1px solid $border;
           display: inline-flex;
           position: relative;
-          left: 10%;
+          left: 0;
           top: 40px;
           opacity: 0;
           transition: all 0.5s cubic-bezier(0.7, -0.56, 0.27, 1.6);
@@ -115,11 +120,12 @@
         top: 30px;
         opacity: 0;
         transition: all 0.6s cubic-bezier(0.7, -0.56, 0.27, 1.6);
-        margin-right: 200px;
-        margin-top: 20px;
+        margin: 20px auto 0;
+        max-width: 700px;
         font-size: 18px;
         line-height: 27px;
         letter-spacing: 0.36px;
+        text-align: center;
       }
 
       .hero-btn.style-1 {
@@ -158,12 +164,12 @@
         transform: rotate(180deg);
       }
 
-      &:hover > .btn-cricle {
+      &:hover>.btn-cricle {
         border-radius: 100%;
         border: 1px solid $yellow;
       }
 
-      &:hover > .btn-arrow {
+      &:hover>.btn-arrow {
         transform: translateX(0px);
       }
 
@@ -194,12 +200,12 @@
         transform: rotate(180deg);
       }
 
-      &:hover > .btn-cricle {
+      &:hover>.btn-cricle {
         border-radius: 100%;
         border: 1px solid $yellow;
       }
 
-      &:hover > .btn-arrow {
+      &:hover>.btn-arrow {
         transform: translateX(20px);
       }
 
@@ -253,12 +259,12 @@
         transition: all 0.3s ease-in-out;
       }
 
-      &:hover > .btn-cricle {
+      &:hover>.btn-cricle {
         border: 1px solid $yellow;
         border-radius: 100%;
       }
 
-      &:hover > .btn-arrow {
+      &:hover>.btn-arrow {
         transform: translateX(10px);
       }
 
@@ -288,12 +294,12 @@
         transform: rotate(180deg);
       }
 
-      &:hover > .btn-cricle {
+      &:hover>.btn-cricle {
         border-radius: 100%;
         border: 1px solid $yellow;
       }
 
-      &:hover > .btn-arrow {
+      &:hover>.btn-arrow {
         transform: translateX(0px);
       }
 
@@ -318,6 +324,7 @@
         width: 100%;
 
         .hero-title {
+
           .hero-main-title,
           .hero-main-title-1 {
             font-size: 58px;
@@ -341,6 +348,7 @@
         width: 100%;
 
         .hero-title {
+
           .hero-main-title,
           .hero-main-title-1 {
             font-size: 48px;

@@ -59,14 +59,11 @@ export default function HeroSiderTwo() {
 
                       <div className="ak-height-30 ak-height-lg-30"></div>
                       <div>
-                        <p className="hero-sub-text text-white">{item.desp}</p>
+                        <p className="hero-sub-text text-center text-white">
+                          {item.desp}
+                        </p>
                       </div>
                       <div className="ak-height-70 ak-height-lg-30"></div>
-                      <Link to={item.buttonUrl} className="hero-btn style-1">
-                        <div className="ak-btn style-5 color-yellow-bg">
-                          {"View More"}
-                        </div>
-                      </Link>
                     </div>
                   </SwiperSlide>
                 );
