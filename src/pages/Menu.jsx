@@ -28,12 +28,12 @@ export default function Menu() {
           // style={{ backgroundColor: "black" }}
           ref={(el) => (imageContainers.current[i] = el)}
         >
-          {/* <img
+          <img
             src={`${item.bgImgShow}`}
             alt="..."
             className="imagesZoom bg-img ak-bg"
             ref={(el) => (imageZoomIns.current[i] = el)}
-          /> */}
+          />
 
           <div
             className="ak-height-120 ak-height-lg-60"

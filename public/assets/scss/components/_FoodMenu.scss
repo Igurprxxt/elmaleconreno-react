@@ -1,18 +1,20 @@
-
 .ak-menu-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
     &.style-2 {
         flex-direction: column;
         width: 650px;
         flex-wrap: nowrap;
     }
+
     .ak-menu-list-section-1 {
         flex-basis: 47%;
         margin-bottom: 50px;
         position: relative;
         cursor: pointer;
+
         img {
             opacity: 0;
             pointer-events: none;
@@ -30,22 +32,27 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         .food-menu-hr {
             margin: 2px -40px 3px 0px;
+
             &.style-1 {
                 background-color: var(--border-color);
                 height: 1px;
                 width: 200px;
             }
         }
+
         .food-menu-title {
             border-bottom: 1px solid var(--yellow-color);
             text-transform: uppercase;
+
             p {
                 font-size: 18px;
                 color: var(--yellow-color);
             }
         }
+
         .food-menu-price {
             p {
                 color: $yellow;
@@ -53,13 +60,16 @@
             }
         }
     }
+
     .food-menu-section-2 {
         display: flex;
         justify-content: space-between;
         margin-top: 7px;
+
         .food-menu-subsitle {
             color: $white;
         }
+
         .food-menu-price-subsitle {
             color: $white;
         }
@@ -85,14 +95,17 @@
             margin-bottom: 20px;
         }
     }
+
     .food-menu.style-1 {
         .food-menu-section-1 {
             flex-direction: column-reverse;
             align-items: flex-start;
+
             .food-menu-hr {
                 display: none;
             }
         }
+
         .food-menu-section-2 {
             flex-wrap: wrap;
         }

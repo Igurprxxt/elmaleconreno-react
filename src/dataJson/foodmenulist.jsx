@@ -1,6 +1,7 @@
 export const foodmenulist = [
   {
     headingtext: { title: "Appetizers", subTitle: "Entradas", type: "center" },
+    bgImgShow: "/assets/img/gal1.jpg",
     foodMenu: [
       { title: "Mussels (12)", price: "$17.99" },
       { title: "Choriqueso", price: "$17.99" },
@@ -33,6 +34,7 @@ export const foodmenulist = [
       subTitle: "House Specials",
       type: "center",
     },
+    bgImgShow: "/assets/img/main2.jpg",
     foodMenu: [
       { title: "Shrimp Chicharron", price: "$26.99" },
       { title: "Fish Chicharron", price: "$25.99" },
@@ -45,6 +47,7 @@ export const foodmenulist = [
       subTitle: "Served with Fries",
       type: "center",
     },
+    bgImgShow: "/assets/img/gal3.jpg",
     foodMenu: [
       { title: "Malecon Shrimp", price: "$16.99" },
       { title: "Santa Fe Chicken", price: "$18.25" },
@@ -61,6 +64,7 @@ export const foodmenulist = [
       subTitle: "Fried & Natural",
       type: "center",
     },
+    bgImgShow: "/assets/img/main11.jpeg",
     foodMenu: [
       { title: "Guamuchilito Roll", price: "$17.99" },
       { title: "Bella Roll", price: "$17.99" },
@@ -85,6 +89,7 @@ export const foodmenulist = [
       subTitle: "Seafood Starters",
       type: "center",
     },
+    bgImgShow: "/assets/img/gal5.jpg",
     foodMenu: [
       { title: "The Black Pearl (Shrimp)", price: "$22.99" },
       { title: "The Black Pearl (Mussels)", price: "$22.99" },
@@ -99,6 +104,7 @@ export const foodmenulist = [
   },
   {
     headingtext: { title: "Oysters", subTitle: "Fresh & VIP", type: "center" },
+    bgImgShow: "/assets/img/main4.jpg",
     foodMenu: [
       { title: "Oysters (1 Dozen)", price: "$25.99" },
       { title: "Oysters (½ Dozen)", price: "$14.99" },
@@ -112,6 +118,7 @@ export const foodmenulist = [
       subTitle: "Handmade Tortillas",
       type: "center",
     },
+    bgImgShow: "/assets/img/gal6.jpg",
     foodMenu: [
       { title: "Asada", price: "$6.99" },
       { title: "Al Pastor", price: "$6.99" },
@@ -130,6 +137,7 @@ export const foodmenulist = [
       subTitle: "Main Dishes",
       type: "center",
     },
+    bgImgShow: "/assets/img/main5.jpg",
     foodMenu: [
       { title: "Camarones a la Diabla", price: "$22.99" },
       { title: "Camarones al Ajillo", price: "$22.99" },
@@ -150,6 +158,7 @@ export const foodmenulist = [
       subTitle: "Hot or Cold",
       type: "center",
     },
+    bgImgShow: "/assets/img/gal7.jpg",
     foodMenu: [
       { title: "Shrimp Cocktail", price: "$16.99" },
       { title: "Shrimp & Octopus", price: "$17.99" },
@@ -163,6 +172,7 @@ export const foodmenulist = [
       subTitle: "With Handmade Tortillas",
       type: "center",
     },
+    bgImgShow: "/assets/img/main6.jpg",
     foodMenu: [
       { title: "Caldo de Camaron", price: "$21.99" },
       { title: "Caldo de Mixto", price: "$22.99" },
@@ -177,6 +187,7 @@ export const foodmenulist = [
       subTitle: "Comes with Fries",
       type: "center",
     },
+    bgImgShow: "/assets/img/main7.jpg",
     foodMenu: [
       { title: "Cheeseburger", price: "$7.99" },
       { title: "Chicken Tenders", price: "$7.99" },
@@ -188,6 +199,7 @@ export const foodmenulist = [
       subTitle: "Sweet Finish",
       type: "center",
     },
+    bgImgShow: "/assets/img/main12.jpeg",
     foodMenu: [
       { title: "Tiramisu", price: "$8.99" },
       { title: "Chocolate Bread Pudding", price: "$8.99" },

@@ -5,7 +5,8 @@
 .ak-row-gap-20 {
   margin-left: -10px;
   margin-right: -10px;
-  > div {
+
+  >div {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -14,7 +15,8 @@
 .ak-row-gap-150 {
   margin-left: -70px;
   margin-right: -70px;
-  > div {
+
+  >div {
     padding-left: 70px;
     padding-right: 70px;
   }
@@ -344,6 +346,7 @@ hr {
 
 .ak-pagination-box {
   margin: -7px;
+
   .ak-pagination-item {
     margin: 7px;
   }
@@ -354,6 +357,7 @@ hr {
   width: 40px;
   border-radius: 5px;
   background-color: #000;
+
   &.active {
     background-color: $yellow;
     color: #fff;
@@ -371,6 +375,7 @@ hr {
   border: 2px solid #999696;
   background-color: transparent;
   color: #fff;
+
   &:focus {
     border-color: $yellow;
   }
@@ -395,12 +400,15 @@ select:focus {
 
 .ak-post-meta.ak-style1 {
   display: flex;
-  > * {
+
+  >* {
     position: relative;
     display: inline-block;
+
     &:not(:last-child) {
       margin-right: 12px;
       padding-right: 12px;
+
       &::before {
         content: "";
         height: 20px;
@@ -417,7 +425,7 @@ select:focus {
 }
 
 .ak-parallax {
-  > *:not([class*="ak-shape-"]) {
+  >*:not([class*="ak-shape-"]) {
     position: relative;
     z-index: 5;
   }
@@ -431,6 +439,7 @@ select:focus {
   justify-content: center;
   align-items: center;
   position: relative;
+
   .error-bg-img {
     width: 100%;
     position: absolute;
@@ -440,19 +449,23 @@ select:focus {
     background-position: center;
     object-fit: cover;
   }
+
   .item-title {
     font-family: var(--body-font-family);
     line-height: 45px;
   }
+
   .item-title-number {
     font-size: 180px;
     color: transparent;
     -webkit-text-stroke: 3px var(--yellow-color);
   }
+
   .item-subtext {
     margin-top: 15px;
     padding: 0px 100px;
   }
+
   .border-comming-soon-top {
     position: absolute;
     width: 100%;
@@ -462,6 +475,7 @@ select:focus {
     display: none;
     background-color: $border;
   }
+
   .border-comming-soon-bottom {
     position: absolute;
     width: 100%;
@@ -470,6 +484,7 @@ select:focus {
     bottom: 15%;
     background-color: $border;
   }
+
   .border-comming-soon-colum-left {
     width: 1px;
     height: 100%;
@@ -479,6 +494,7 @@ select:focus {
     align-self: flex-start;
     left: 20%;
   }
+
   .border-comming-soon-colum-right {
     width: 1px;
     height: 100%;
@@ -488,35 +504,45 @@ select:focus {
     align-self: flex-end;
     right: 20%;
   }
+
   .date-section {
     text-align: center;
+
     .timmer {
       width: 150px;
       display: inline-block;
+
       @media screen and (max-width: 768px) {
         width: 100px;
       }
     }
+
     .number {
       font-family: var(--body-font-family);
+
       @media screen and (max-width: 768px) {
         font-size: 50px;
       }
     }
+
     .text {
       font-size: 18px;
     }
   }
+
   .item-title {
     color: $white;
+
     @media screen and (max-width: 768px) {
       font-size: 32px;
     }
   }
+
   .item-subTitle {
     padding: 0px 25%;
     text-align: center;
   }
+
   .back-btn {
     border: 1px solid $border;
     margin-top: 70px;
@@ -528,9 +554,11 @@ select:focus {
   border-bottom: 1px solid $border;
   margin: 0;
   padding: 20px;
+
   &.border-none-right {
     border-right: 0;
   }
+
   &.border-none-bottom {
     border-bottom: 0px;
   }
@@ -547,9 +575,11 @@ select:focus {
   height: 1px;
   width: 100%;
   background-color: #4f4836;
+
   &.top-50px {
     top: 50px;
   }
+
   &.bottom-50px {
     bottom: 50px;
   }
@@ -557,6 +587,7 @@ select:focus {
 
 .padding-36px {
   padding: 36px;
+
   @media screen and (max-width: 768px) {
     padding: 15px 0px;
   }
@@ -573,6 +604,7 @@ select:focus {
   border-top: 0;
   border-left: 0;
   border-right: 0;
+
   &.marginY-30 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -588,6 +620,7 @@ select:focus {
 }
 
 @media screen and (max-width: 1199px) {
+
   .ak-right-space-40,
   .ak-right-space-150 {
     padding-right: 0;
@@ -598,42 +631,55 @@ select:focus {
   .ak-left-space-30 {
     padding-left: 0px;
   }
+
   .ak-font-14-sm {
     font-size: 14px;
   }
+
   .ak-font-16-sm {
     font-size: 16px;
   }
+
   .ak-font-18-sm {
     font-size: 18px;
   }
+
   .ak-font-20-sm {
     font-size: 20px;
   }
+
   .ak-font-22-sm {
     font-size: 22px;
   }
+
   .ak-font-24-sm {
     font-size: 24px;
   }
+
   .ak-font-26-sm {
     font-size: 26px;
   }
+
   .ak-font-28-sm {
     font-size: 28px;
   }
+
   .ak-font-42-sm {
     font-size: 42px;
   }
+
   .ak-font-36-sm {
     font-size: 36px;
   }
-  .ak-btn-group > *:not(:last-child) {
+
+  .ak-btn-group>*:not(:last-child) {
     margin-right: 10px;
   }
+
   .flex-column-reverse-lg {
     flex-direction: column-reverse;
   }
+
   .ak-seciton-heading.ak-style1 .ak-section-title::before {
     top: 1px;
   }
@@ -647,6 +693,7 @@ select:focus {
 .ak-partner-logo {
   flex: none;
   padding: 10px 65px;
+
   img {
     max-height: 100px;
   }
@@ -658,6 +705,7 @@ select:focus {
   font-family: Baskervville;
   color: transparent;
   -webkit-text-stroke: 1px var(--yellow-color);
+
   &.ak-type-1 {
     -webkit-text-stroke: 1.5px var(--yellow-color);
     text-align: center;
@@ -679,13 +727,16 @@ select:focus {
   line-height: 1.2em;
   color: transparent;
   -webkit-text-stroke: 2px var(--yellow-color);
+
   &.ak-type-1 {
     text-align: center;
     font-size: 265.289px;
+
     @media screen and (max-width: 991px) {
       font-size: 100px;
       line-height: 100px;
     }
+
     line-height: 321px;
   }
 }
@@ -695,6 +746,7 @@ select:focus {
   z-index: 10;
   overflow: hidden;
   border-radius: 0px;
+
   &::before {
     content: "";
     position: absolute;
@@ -706,11 +758,13 @@ select:focus {
     background-color: rgba($black, 0.4);
     transition: all 0.4s ease;
   }
+
   &:hover {
     &::before {
       opacity: 1;
     }
   }
+
   &.ak-size1 {
     height: 580px;
   }
@@ -773,6 +827,7 @@ select:focus {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
     opacity: 1;
   }
+
   100% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
@@ -786,6 +841,7 @@ select:focus {
 .ak-shine-hover-1 {
   position: relative;
   overflow: hidden;
+
   &::before {
     content: "";
     position: absolute;
@@ -794,14 +850,13 @@ select:focus {
     z-index: 2;
     width: 50%;
     height: 100%;
-    background: linear-gradient(
-      to right,
-      transparent 0%,
-      rgba(255, 255, 255, 0.15) 100%
-    );
+    background: linear-gradient(to right,
+        transparent 0%,
+        rgba(255, 255, 255, 0.15) 100%);
     transform: skewX(-25deg);
     z-index: 1;
   }
+
   &:hover {
     &::before {
       animation: shine 1.3s;
@@ -832,6 +887,7 @@ select:focus {
   background-color: $black;
   box-shadow: 0px 1px 5px 1px rgba($black, 0.2);
   border-radius: 50%;
+
   &:hover {
     background-color: $yellow;
     color: $white;
@@ -842,6 +898,7 @@ select:focus {
   height: 100%;
   background-color: #000;
   padding: 45px 35px;
+
   .ak-faq-nav-title {
     font-size: 30px;
   }
@@ -851,6 +908,7 @@ select:focus {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   overflow: hidden;
+
   .ak-entity-img {
     display: none;
   }
@@ -858,6 +916,7 @@ select:focus {
 
 .ak-parallax-slider {
   transition: opacity 0.6s ease, transform 0.3s ease;
+
   &.loading {
     opacity: 0;
     visibility: hidden;
@@ -872,6 +931,7 @@ select:focus {
   border: none;
   transition: all 0.2s;
   text-transform: uppercase;
+
   &:hover {
     background-color: $yellow;
   }
@@ -880,10 +940,12 @@ select:focus {
 .set-bg-img-section {
   position: relative;
   overflow: hidden;
+
   .bg-img {
     position: absolute;
     height: 100%;
     width: 100%;
+    opacity: 0.2;
   }
 }
 
@@ -912,15 +974,11 @@ select:focus {
   width: 1px;
   --qode-dur: 4.5s;
   transform: translateY(-15vh);
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 0,
-    var(--qode-grid-lines-decoration-color, var(--qode-line-decoration-color))
-      50%,
-    var(--qode-grid-lines-decoration-color, var(--qode-line-decoration-color))
-      90%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0) 0,
+      var(--qode-grid-lines-decoration-color, var(--qode-line-decoration-color)) 50%,
+      var(--qode-grid-lines-decoration-color, var(--qode-line-decoration-color)) 90%,
+      rgba(255, 255, 255, 0) 100%);
   animation: ripple var(--qode-dur) infinite;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.4, 0.26, 0.16, 0.98);
@@ -947,6 +1005,7 @@ select:focus {
 .ak-google-map {
   height: 700px;
   overflow: hidden;
+
   iframe {
     height: 100%;
     display: block;
@@ -954,6 +1013,7 @@ select:focus {
     width: 100%;
     filter: grayscale(100%) invert(90%) contrast(120%);
   }
+
   &.ak-type1 {
     height: 100%;
     min-height: 300px;
@@ -963,10 +1023,12 @@ select:focus {
 
 .ak-btn.style-5 {
   padding: 18px 36px;
+
   @media screen and (max-width: 767px) {
     padding: 10px 20px;
     font-size: 16px;
   }
+
   color: $black;
   outline: none;
   cursor: pointer;
@@ -978,11 +1040,13 @@ select:focus {
   position: relative;
   z-index: 11;
   border-color: transparent;
+
   button {
     background: transparent;
     border: none;
     text-transform: uppercase;
   }
+
   &::before,
   &::after {
     height: 100%;
@@ -991,6 +1055,7 @@ select:focus {
     transition: all 0.3s;
     content: "";
   }
+
   &::before {
     width: 100%;
     left: 0;
@@ -998,6 +1063,7 @@ select:focus {
     background-color: $white;
     z-index: -1;
   }
+
   &.color-yellow-bg::before {
     width: 100%;
     left: 0;
@@ -1005,6 +1071,7 @@ select:focus {
     background-color: $yellow;
     z-index: -1;
   }
+
   &::after {
     width: 0;
     left: 50%;
@@ -1013,11 +1080,14 @@ select:focus {
     transform: translate(-50%, 0);
     z-index: 1;
   }
+
   &:hover {
     color: $white;
+
     &::before {
       transform: scale(0, 1);
     }
+
     &::after {
       width: 100%;
       border-color: $yellow;
@@ -1028,13 +1098,16 @@ select:focus {
 
 .lg-custom-thumbnails {
   background-color: #040d10;
+
   #lg-counter {
     color: #fff;
   }
+
   .lg-icon {
     background-color: transparent;
     border: none;
     color: #fff;
+
     &:hover {
       color: $yellow;
     }
@@ -1071,6 +1144,7 @@ input[type="checkbox"] {
     color: #fff;
     z-index: 10;
     font-size: 16px;
+
     .social-border {
       border: none;
       border-bottom: 2px solid #fff;
@@ -1093,17 +1167,20 @@ input[type="checkbox"] {
     color: #fff;
     z-index: 10;
     font-size: 16px;
+
     .social-border {
       border: none;
       border-bottom: 2px solid #fff;
       width: 100px;
       transform-origin: right;
     }
+
     .social-icon span {
       margin-right: 3px;
       cursor: pointer;
     }
   }
+
   .scroll-btn {
     position: absolute;
     bottom: 4%;
@@ -1111,17 +1188,21 @@ input[type="checkbox"] {
     transform: translate("50% -50%");
     z-index: 10;
     cursor: pointer;
+
     .icon {
       animation: textupdown 2s ease-in-out infinite;
     }
   }
+
   @keyframes textupdown {
     0% {
       transform: translateY(0px);
     }
+
     50% {
       transform: translateY(10px);
     }
+
     100% {
       transform: translateY(0px);
     }
@@ -1130,61 +1211,76 @@ input[type="checkbox"] {
 
 //end ak-back-to-services-btn
 @media screen and (max-width: 991px) {
+
   .ak-video-block.ak-style1,
   .ak-video-block.ak-style1.ak-size1 {
     .ak-player-btn {
       transform: translate(-50%, -50%) scale(0.8);
     }
   }
+
   .ak-scrollup {
     right: 15px;
+
     &.ak-scrollup-show {
       bottom: 50px;
     }
   }
+
   .ak-column-reverse-lg {
     flex-direction: column-reverse;
   }
 
   .ak-row-gap-150 {
-    > div {
+    >div {
       margin-bottom: -30px;
     }
   }
+
   .ak-border {
     border: none;
   }
+
   .drop-anim-gallery::after {
     visibility: hidden;
   }
+
   .drop-anim-gallery::before {
     visibility: hidden;
   }
+
   .section-all-item-center {
     .border-comming-soon-top {
       top: 15%;
       display: block;
     }
+
     .border-comming-soon-bottom {
       bottom: 10%;
     }
+
     .border-comming-soon-colum-left {
       left: 2%;
     }
+
     .border-comming-soon-colum-right {
       right: 2%;
     }
+
     .item-title {
       font-size: 38px;
     }
+
     .item-title-number {
       font-size: 100px;
       -webkit-text-stroke: 1px var(--yellow-color);
     }
+
     .item-subtext {
       padding: 0px;
     }
   }
+
   .border-1-lg-none {
     border: none;
   }
@@ -1194,14 +1290,18 @@ input[type="checkbox"] {
   .ak-hero-2.ak-style1 {
     min-height: 300px;
   }
+
   .ak-border {
     border-bottom: 1px solid $border;
+
     &.border-none-right {
       border-right: 0;
     }
+
     &.border-none-bottom {
       border-bottom: 1px solid $border;
     }
+
     &.b-none {
       border-bottom: 0px solid $border;
     }
@@ -1210,15 +1310,18 @@ input[type="checkbox"] {
   .border-right-1 {
     border: none;
   }
+
   .border-bottom-1 {
     border: none;
   }
+
   .mini-title.style-1 {
     margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 575px) {
+
   .ak-video-block.ak-style1,
   .ak-video-block.ak-style1.ak-size1 {
     .ak-player-btn {
