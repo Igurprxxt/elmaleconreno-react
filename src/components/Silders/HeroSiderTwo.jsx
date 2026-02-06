@@ -58,11 +58,11 @@ export default function HeroSiderTwo() {
                       </div>
 
                       <div className="ak-height-30 ak-height-lg-30"></div>
-                      <div>
+                      {/* <div>
                         <p className="hero-sub-text text-center text-white">
                           {item.desp}
                         </p>
-                      </div>
+                      </div> */}
                       <div className="ak-height-70 ak-height-lg-30"></div>
                     </div>
                   </SwiperSlide>
